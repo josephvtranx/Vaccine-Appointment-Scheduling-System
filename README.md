@@ -14,6 +14,7 @@ This project implements a command-line application for scheduling COVID-19 vacci
 - Cryptography: Used for securely hashing user passwords with salting techniques.
 ## Data Model
 The system stores the following information in the database:
+[design.pdf](https://github.com/user-attachments/files/17054274/design.pdf)
 - Patients: Stores patient details and login credentials.
 - Caregivers: Stores caregiver details, availability, and login credentials.
 - Vaccines: Tracks vaccine names and available doses.
