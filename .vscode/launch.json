@@ -1,28 +1,18 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Scheduler",
-            "request": "launch",
-            "mainClass": "scheduler.Scheduler",
-            "projectName": "Vaccine-Appointment-Scheduling-System_204c43b2",
-            "classPaths": [
-                "${workspaceFolder}/bin",
-                "${workspaceFolder}/mssql-jdbc-9.4.1.jre16.jar"
-              ],
-            "vmArgs": "-DServer=josephvtranx.database.windows.net -DDBName=Vaccine-Appointment-Scheduling-System -DUserID=josephvtranx@josephvtranx -DPassword=Thocon5405$"
-
-            
-        }
+      {
+        "type": "java",
+        "name": "Scheduler",
+        "request": "launch",
+        "mainClass": "scheduler.Scheduler",
+        "projectName": "Vaccine-Appointment-Scheduling-System",
+        "classPaths": [
+          "${workspaceFolder}/bin",
+          "${workspaceFolder}/mssql-jdbc-9.4.1.jre16.jar"
+        ],
+        "vmArgs": "-DServer=josephvtranx.database.windows.net -DDBName=Vaccine-Appointment-Scheduling-System -DUserID=josephvtranx@josephvtranx -DPassword=Thocon5405$"
+      }
     ]
-}
+  }
+  
