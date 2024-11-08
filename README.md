@@ -28,7 +28,9 @@ The system stores the following information in the database:
 3. Dependencies:
 - Download and configure the JDBC driver in lib/.
 4. Run:
-- Run this command in the terminal java -cp "bin:mssql-jdbc-9.4.1.jre16.jar" -DServer=josephvtranx.database.windows.net -DDBName=Vaccine-Appointment-Scheduling-System -DUserID=josephvtranx@josephvtranx -DPassword=Thocon5405$ scheduler.Scheduler
+- Run this command in the terminal:
+java -cp "bin;mssql-jdbc-9.4.1.jre16.jar" -DServer="josephvtranx.database.windows.net" -DDBName="Vaccine-Appointment-Scheduling-System" -DUserID="josephvtranx@josephvtranx" -DPassword="simplerPassword123" scheduler.Scheduler
+
 
 ### Key Commands
 ## Create a patient:
